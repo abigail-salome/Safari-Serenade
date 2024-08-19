@@ -38,15 +38,15 @@ Search for Destinations:
 7. Book a Destination:
 8. Click the "Book" button on a destination.
 9. Fill out the booking form with your details.
-10. Click the "Book Now" button to submit the form.
+10. Click the "Book" button to submit the form.
 11. You will receive a confirmation alert if the booking is successful.
 
 #### Example
 Here's an example of how to use the project:
-* Open index.html in your browser.
+* Open create my react app in your browser.
 * Search for "Nairobi National Park" in the search bar and press "Enter".
 * View the images of Nairobi National Park by clicking on them.
-* Click the "Book Now" button for Nairobi National Park.
+* Click the "Book" button for Nairobi National Park.
 * Fill out the booking form and submit it.
 
 
