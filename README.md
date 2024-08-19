@@ -14,6 +14,8 @@ Safari Serenade is a travel destination guide that allows users to search for de
 1. Node.js installed on your computer.
 2. json-server package installed globally. You can install it by running:
 npm install -g json-server
+3. The json-server URL is:
+https://phase-2-project-gamma.vercel.app/destinations
 
 #### Installation
 Follow these steps to install and set up the project on your local machine:
@@ -47,20 +49,7 @@ Here's an example of how to use the project:
 * Click the "Book Now" button for Nairobi National Park.
 * Fill out the booking form and submit it.
 
-#### Project Structure
-Safari Serenade/
-├── public/
-│   ├── index.html
-│   ├── styles/
-│   │   └── style.css
-├── src/
-│   ├── components/
-│   │   ├── DestinationCard.js
-│   │   ├── DestinationList.js
-│   │   ├── BookingForm.js
-│   ├── App.js
-│   ├── index.js
-├── db.json
-└── README.md
+
 
 #### Hosted URL
+https://safari-serenade.vercel.app/

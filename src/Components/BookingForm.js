@@ -14,7 +14,7 @@ export default function BookingForm() {
 
   // Fetch the destination details
   useEffect(() => {
-    fetch(`http://localhost:4000/destinations/${destinationId}`)
+    fetch(`https://phase-2-project-gamma.vercel.app/destinations/${destinationId}`)
       .then((response) => response.json())
       .then((data) => setDestination(data))
       .catch((error) => console.error("Error fetching destination:", error));
@@ -40,7 +40,7 @@ export default function BookingForm() {
     };
 
     // POST request to save booking in the db.json file
-    fetch("http://localhost:4000/bookings", {
+    fetch("https://phase-2-project-gamma.vercel.app/bookings", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

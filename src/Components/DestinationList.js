@@ -12,7 +12,7 @@ export default function DestinationList() {
   });
 
   useEffect(() => {
-    fetch('http://localhost:4000/destinations') 
+    fetch('https://phase-2-project-gamma.vercel.app/destinations') 
       .then(response => response.json())
       .then(data => setDestinations(data))
       .catch(error => console.error('Error fetching data:', error));
