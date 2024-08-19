@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    padding: 10px;
+  }
+  .navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  

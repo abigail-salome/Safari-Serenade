@@ -1,0 +1,50 @@
+.destination-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Fixed width for cards */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .destination-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .destination-card h2 {
+    margin: 10px 0;
+    color: green;
+  }
+  
+  .destination-card p {
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .destination-card .image-gallery {
+    margin: 10px 0;
+  }
+  
+  .destination-card .destination-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .destination-card button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .destination-card button:hover {
+    background-color: darkgray;
+  }
+  

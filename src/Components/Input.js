@@ -1,12 +1,21 @@
-import React from 'react'
+import React from "react";
+import './Input.css'
 
-const Input = () => {
+const Input = ({ searchTerm, onSearchChange, onSearchClick }) => {
   return (
     <div className="search-container">
-        <input type="text" id="search" placeholder="search destinations"></input>
-        <button id="search-btn">Search</button>
+      <input
+        type="text"
+        id="search"
+        placeholder="Search destinations"
+        value={searchTerm}
+        onChange={onSearchChange}
+      />
+      <button className="search-btn" onClick={onSearchClick}>
+        Search
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export { Input };
+export default Input;
